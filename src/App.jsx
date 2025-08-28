@@ -3,6 +3,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header";
 import Hero from "./Hero";
 import WhyECS from "./components/WhyECS";
+import Banner from "./components/Banner";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Header />
         <Hero />
         <WhyECS />
+        <Banner />
+        <Footer />
       </div>
     </Router>
   );

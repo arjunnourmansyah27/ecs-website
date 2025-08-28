@@ -23,9 +23,7 @@ export default function Header() {
 
   return (
     <>
-      <header
-        className={`fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300 ${headerTone}`}
-      >
+      <header className={`fixed inset-x-0 top-0 z-50 border-b border-transparent transition-all duration-300 ${headerTone}`}>
         <div className="mx-auto flex h-16 md:h-20 max-w-7xl items-center justify-between px-4 md:px-6">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2" aria-label="Beranda">
@@ -126,13 +124,13 @@ export default function Header() {
             `}
           aria-hidden={!isOpen}
         >
-          <Link to="/produk" className="block hover:opacity-80">
+          <Link to="/produk" className="block hover:opacity-50">
             Produk
           </Link>
-          <Link to="/tentang" className="block hover:opacity-80">
+          <Link to="/tentang" className="block hover:opacity-50">
             Tentang Kami
           </Link>
-          <Link to="/event" className="block hover:opacity-80">
+          <Link to="/event" className="block hover:opacity-50">
             Event &amp; Blog
           </Link>
 
